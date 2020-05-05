@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { Context } from "../store/appContext";
 
 export const Single = props => {
@@ -11,11 +11,11 @@ export const Single = props => {
 
 			<hr className="my-4" />
 
-			<Link to="/">
-				<span className="btn btn-primary btn-lg" href="#" role="button">
-					Back home
-				</span>
-			</Link>
+			{/* <Link to="/"> */}
+			<span className="btn btn-primary btn-lg" href="#" role="button">
+				Back home
+			</span>
+			{/* </Link> */}
 		</div>
 	);
 };
