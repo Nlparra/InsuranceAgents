@@ -13,7 +13,9 @@ export const Search = () => {
 					</DropdownButton>
 				</Col>
 				<Col>
-					<Button variant="success">Search</Button>
+					<Button className="search" variant="success">
+						Search
+					</Button>
 				</Col>
 			</Row>
 		</Form>

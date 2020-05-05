@@ -32,7 +32,7 @@ export const SignIn = () => {
 								aria-describedby="PasswordHelp"
 							/>
 						</div>
-						<Button variant="primary" type="submit">
+						<Button className="mt-2" variant="primary" type="submit">
 							Sign In
 						</Button>
 					</Form>
