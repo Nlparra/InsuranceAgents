@@ -15,7 +15,7 @@ export const Register = () => {
 					</div>
 				</div>
 				<div className="col-6">
-					<h1 className="text-center mt-5">Add a new contact</h1>
+					<h1 className="text-center mt-5">Add a new agent</h1>
 					<form>
 						<div className="form-group">
 							<label>First Name</label>
