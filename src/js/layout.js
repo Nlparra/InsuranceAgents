@@ -5,6 +5,7 @@ import ScrollToTop from "./component/scrollToTop";
 import { Home } from "./views/home";
 import injectContext from "./store/appContext";
 import { Register } from "./views/Register";
+import { AgentPage } from "./views/AgentPage";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
@@ -22,7 +23,8 @@ export const Layout = () => {
 					<Navbar />
 					<Switch>
 						<Route exact path="/" component={Home} />
-						<Route exact path="/Register" component={Register} />
+						<Route exact path="/register" component={Register} />
+						<Route exact path="/agent/:uuid" component={AgentPage} />
 						{/* <Route path="/agent/:theid" component={Single} /> */}
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
