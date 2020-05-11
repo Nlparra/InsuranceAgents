@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 export const AgentPage = props => {
 	const { store, actions } = useContext(Context);
 
-	console.log(store.users);
+	
 
 	return (
 		<div className="contain mt-5">
